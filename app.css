@@ -1,0 +1,46 @@
+body {
+    background-color: darkgray;
+    margin: 0;
+    }
+    h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    .tiles {
+        height: 415px;
+        width: 400px;
+        
+        background-color: ivory;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        
+        left: 500px;
+        position: relative;
+        
+    }
+    .tile {
+        height: 100px;
+        background-color: black;
+        border: 2px solid gray;
+        cursor: pointer;
+    }
+    .hide {
+        display: none;
+    }
+    button {
+        font-size: 70px;
+        position: absolute;
+        bottom: 80%;
+        color: chartreuse;
+        background-color: darkmagenta;
+        left: 600px;
+        bottom: 25px;
+    }
+    .stat-container {
+        font-size: 30px;
+        position: absolute;
+        color: aqua;
+        
+        right: 0;
+    }
+    
